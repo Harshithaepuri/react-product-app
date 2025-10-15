@@ -28,6 +28,23 @@ A **React-based product management app** that demonstrates modern React skills i
 
 ---
 
+## 🔗 **Live Demo**
+
+🚀 Check out the live version of the project here: **[React Product App](https://react-product-app-np6t.vercel.app)**
+
+
+## 📚 **Skills Demonstrated**
+
+- **⚡ State management** with `useState` and `useReducer`  
+- **📝 Form handling** with validation and controlled inputs  
+- **🔍 Filtering, searching, sorting** arrays of objects  
+- **📦 CRUD operations** (Create, Read, Update, Delete)  
+- **🛣 React Router**: navigation and dynamic routing (`/products/:id`)  
+- **⚙️ Performance optimization** using `React.memo` and `useCallback`  
+- **💾 Persistence** with local storage  
+- **📱 Responsive UI** with Tailwind CSS
+
+
 ## **💻 Screenshots**
 
 ![App Screenshot](https://github.com/user-attachments/assets/b13d94d7-252e-4373-976c-2bfbbb969ebd)
@@ -69,25 +86,6 @@ src/
 │  ├─ ProductDetails.jsx
 ├─ App.jsx
 └─ index.js
-📚 Skills Demonstrated
-State management with useState and useReducer
-
-Form handling with validation and controlled inputs
-
-Filtering, searching, sorting arrays of objects
-
-CRUD operations (Create, Read, Update, Delete)
-
-React Router: navigation and dynamic routing (/products/:id)
-
-Performance optimization using React.memo and useCallback
-
-Persistence with local storage
-
-Responsive UI with Tailwind CSS
-
-🔗 Live Demo
-Check out the live version of the project here: React Product App
 
 👨‍💻 Future Improvements
 Add user authentication
