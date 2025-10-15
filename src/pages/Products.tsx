@@ -1,4 +1,4 @@
-import { useState, useReducer, useCallback } from "react";
+import { useState, useCallback } from "react";
 import ProductItem from "../components/ProductItem";
 
 const Products = ({products, dispatch}) => {
