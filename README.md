@@ -1,62 +1,63 @@
-# React Product Management App
+# **React Product Management App**
 
 A **React-based product management app** that demonstrates modern React skills including state management, hooks, routing, API fetching, local storage, and Tailwind CSS styling. Perfect for small-to-medium scale front-end projects.
 
 ---
 
-## 🌟 Features
+## **🌟 Features**
 
-- **List products** with dynamic search, filter, and sort functionality.
-- **Add, edit, and delete products** easily with a clean UI.
-- **Toggle product status** between Available / Sold Out.
-- **Persist data** in **Local Storage** so your products remain after reloads.
-- **Fetch initial product data** from an API (`jsonplaceholder.typicode.com/users`) and map to product structure.
-- **Responsive design** using **Tailwind CSS**.
-- **Component-based architecture**: Navbar, ProductItem, and Pages for maintainability.
-- **Optimized rendering** using `React.memo` and `useCallback`.
-
----
-
-## 🛠 Tech Stack
-
-- **React** (Functional Components, JSX)
-- **React Hooks** (`useState`, `useReducer`, `useEffect`, `useCallback`)
-- **React Router DOM** (Routing & Dynamic Routes)
-- **Tailwind CSS** (Responsive UI)
-- **Local Storage** (Persistence)
-- **JavaScript ES6+**
+- **List products** with dynamic search, filter, and sort functionality.  
+- **Add, edit, and delete products** easily with a clean UI.  
+- **Toggle product status** between Available / Sold Out.  
+- **Persist data** in **Local Storage** so your products remain after reloads.  
+- **Fetch initial product data** from an API (`jsonplaceholder.typicode.com/users`) and map to product structure.  
+- **Responsive design** using **Tailwind CSS**.  
+- **Component-based architecture**: Navbar, ProductItem, and Pages for maintainability.  
+- **Optimized rendering** using `React.memo` and `useCallback`.  
 
 ---
 
-## 💻 Screenshots
+## **🛠 Tech Stack**
 
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/b13d94d7-252e-4373-976c-2bfbbb969ebd" />
+- **React** (Functional Components, JSX)  
+- **React Hooks** (`useState`, `useReducer`, `useEffect`, `useCallback`)  
+- **React Router DOM** (Routing & Dynamic Routes)  
+- **Tailwind CSS** (Responsive UI)  
+- **Local Storage** (Persistence)  
+- **JavaScript ES6+**  
 
+---
 
-## ⚡ How to Run Locally
+## **💻 Screenshots**
+
+![App Screenshot](https://github.com/user-attachments/assets/b13d94d7-252e-4373-976c-2bfbbb969ebd)
+
+---
+
+## **⚡ How to Run Locally**
 
 1. **Clone the repository**
-
 ```bash
 git clone https://github.com/yourusername/react-product-app.git
 cd react-product-app
-
-
 Install dependencies
 
+bash
+Copy code
 npm install
-
-
 Run the development server
 
+bash
+Copy code
 npm start
-
-
 Open the app in your browser
 
+arduino
+Copy code
 http://localhost:3000
-
 🔧 Project Structure
+css
+Copy code
 src/
 ├─ components/
 │  ├─ Navbar.jsx
@@ -68,43 +69,36 @@ src/
 │  ├─ ProductDetails.jsx
 ├─ App.jsx
 └─ index.js
+📚 Skills Demonstrated
+State management with useState and useReducer
 
-📚 What I Learned / Skills Demonstrated
+Form handling with validation and controlled inputs
 
-State management with useState and useReducer.
+Filtering, searching, sorting arrays of objects
 
-Form handling with validation and controlled inputs.
+CRUD operations (Create, Read, Update, Delete)
 
-Filtering, searching, sorting arrays of objects.
+React Router: navigation and dynamic routing (/products/:id)
 
-CRUD operations (Create, Read, Update, Delete).
+Performance optimization using React.memo and useCallback
 
-React Router: navigation and dynamic routing (/products/:id).
+Persistence with local storage
 
-Performance optimization using React.memo and useCallback.
+Responsive UI with Tailwind CSS
 
-Persistence with local storage.
-
-Responsive UI with Tailwind CSS.
-
-🔗 Demo
-
-(Optional: Add a live demo link here if deployed via Vercel or Netlify)
+🔗 Live Demo
+Check out the live version of the project here: React Product App
 
 👨‍💻 Future Improvements
+Add user authentication
 
-Add user authentication.
+Integrate a backend database for permanent storage
 
-Integrate a backend database for permanent storage.
+Add notifications/toasts for actions (add, edit, delete)
 
-Add notifications/toasts for actions (add, edit, delete).
-
-Add sorting by multiple criteria (name, status, price).
+Add sorting by multiple criteria (name, status, price)
 
 🚀 Author
-
-Your Name – GitHub Profile
-
+Harshita Epuri – GitHub Profile
 Email: harshitaepuri45@gmail.com
-
 
