@@ -1,7 +1,7 @@
 import React,{ useState }from "react";
 import {Link} from "react-router-dom";
 
-const ProductItem = ({ product, deleteProduct, editProduct, toggleStatus, saveProduct }) => {
+const ProductItem = ({ product, deleteProduct, toggleStatus, saveProduct }) => {
   const [isediting, setIsEditing] = useState(false);
   const [editName, setEditName] = useState(product.name);
   const [editPrice, setEditPrice] = useState(product.price);
