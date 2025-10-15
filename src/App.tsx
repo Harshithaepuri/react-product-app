@@ -1,5 +1,5 @@
 import { Routes, Route} from "react-router-dom";
-import { useState,useEffect, useReducer, useCallback } from "react";
+import { useState,useEffect, useReducer } from "react";
 import Products from "./pages/Products";
 import Navbar from "./components/Navbar";
 import About from "./pages/About";
